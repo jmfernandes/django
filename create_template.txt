@@ -1,0 +1,14 @@
+django-admin.py startproject --template=https://github.com/heroku/heroku-django-template/archive/master.zip --name=Procfile helloworld
+
+
+
+to push changes
+
+git push heroku master
+
+heroku run python manage.py migrate
+
+
+
+Note::::
+Need to put “heroic run” before regular Django python commands
